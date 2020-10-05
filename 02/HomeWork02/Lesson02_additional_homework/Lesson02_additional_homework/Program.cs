@@ -6,7 +6,7 @@ namespace Lesson02_additional_homework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter two numbers and operation (+,-,*, /,% or **) : ");
+            Console.WriteLine("Enter two numbers and operation ( +,-,*, /,% or **) : ");
             int firstNumber = int.Parse(Console.ReadLine());
             int secondNumber = int.Parse(Console.ReadLine());
             string operation = Console.ReadLine();
