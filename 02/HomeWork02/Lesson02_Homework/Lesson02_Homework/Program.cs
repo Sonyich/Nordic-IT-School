@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter two numbers: ");
+            Console.WriteLine("Enter two numbers, please: ");
             int firstNumber = int.Parse(Console.ReadLine());
             int secondNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Sum of this numbers is: {0}", firstNumber + secondNumber);
