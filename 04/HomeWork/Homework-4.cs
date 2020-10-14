@@ -13,7 +13,7 @@ namespace App1
       			int numberOfSmallContainers;
       			int numberOfMediumContainers;
       			int numberOfLargeContainers;
-      			string delimiter = 		CultureInfo.InvariantCulture.NumberFormat.NumberDecimalSeparator;
+      			string delimiter = CultureInfo.InvariantCulture.NumberFormat.NumberDecimalSeparator;
 		        Console.WriteLine("Здравствуйте! Какой объем сока (в литрах) вам требуется упаковать?");
       			Console.WriteLine($"Если число дробное, то в качестве дробного разделителя используйте '{delimiter}'");
       			float litters = Single.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ namespace App1
       			numberOfSmallContainers = roundedLitters/smallSize;
      			roundedLitters = roundedLitters - numberOfSmallContainers*smallSize;
 
-      			Console.WriteLine($"Вам следует использовать {numberOfLargeContainers} больших контейнеров, {numberOfMediumContainers} средних контейнеров и {numberOfSmallContainers} маленьких контейнеров.");
+      			Console.Write($"Вам следует использовать {numberOfLargeContainers} больших контейнеров,"+ $"{numberOfMediumContainers} средних контейнеров и {numberOfSmallContainers} маленьких контейнеров.");
   	        
     		}
   	}
