@@ -27,7 +27,10 @@ namespace App1
       			numberOfSmallContainers = roundedLitters/smallSize;
      			roundedLitters = roundedLitters - numberOfSmallContainers*smallSize;
 
-      			Console.Write($"Вам следует использовать {numberOfLargeContainers} больших контейнеров,"+ $"{numberOfMediumContainers} средних контейнеров и {numberOfSmallContainers} маленьких контейнеров.");
+      			Console.Write($"Вам следует использовать " +
+                    $"{numberOfLargeContainers} больших контейнеров,"+
+                    $"{numberOfMediumContainers} средних контейнеров " +
+                    $"и {numberOfSmallContainers} маленьких контейнеров.");
   	        
     		}
   	}
