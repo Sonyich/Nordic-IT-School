@@ -60,7 +60,7 @@ namespace Homework5
             catch (ArgumentException e)
             {
                 Console.WriteLine("Sorry, but you should enter only 1, 2 or 3. " +
-                  "Launch the program again and try once more.\n" + e.Message );
+                  "Launch the program again and try once more. \n" + e.Message );
             }
             
             catch (OverflowException o)
