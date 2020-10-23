@@ -15,7 +15,6 @@ namespace Homework5
             Console.WriteLine("Enter figure type number,"+
                 " when 1 is a round, 2 is a triangle" +
                 " and 3 is a rectangle: ");
-            //string enteredValue = Console.ReadLine();
 
             try
             {
