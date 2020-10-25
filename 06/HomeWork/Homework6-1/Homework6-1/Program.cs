@@ -65,7 +65,6 @@ namespace Homework6_1
                     Console.WriteLine(f.Message + '\n' + "Try once more, please" + '\n');
                     Console.ResetColor();
                 }
-
             }
 
             Console.ForegroundColor = ConsoleColor.Yellow;

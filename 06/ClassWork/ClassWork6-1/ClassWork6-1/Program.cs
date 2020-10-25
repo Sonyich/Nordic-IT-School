@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ClassWork6_1
 {
@@ -7,17 +8,32 @@ namespace ClassWork6_1
         static void Main(string[] args)
         {
 
-           
-                int perimeter = int.Parse(Console.ReadLine());
-                Console.WriteLine(perimeter);
+            /*
+                 int perimeter = int.Parse(Console.ReadLine());
+                 Console.WriteLine(perimeter);
+
+             if (perimeter <0)
+             {
+                 throw new Exception (message: "Invalid input data");
+             }
             
-            
-            
-            
-            if (perimeter <0)
+            do
             {
-                throw new Exception (message: "Invalid input data");
+                Console.WriteLine("pishi");
+                //Console.ReadLine();
             }
+            while (Console.ReadLine() != "exit");
+            */
+            // infinite cicle
+            int sum = 0;
+            do
+            {
+                sum = sum + 1;
+                Console.WriteLine(sum);
+                if (sum >= 100)
+                    break;
+            } while (true);
+            
         }
     }
 }
