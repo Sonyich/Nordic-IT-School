@@ -25,7 +25,7 @@ namespace Homework6_1
 
                     if (ourNumberAsInt < 0)
                     {
-                        throw new Exception("You should enter positive number.");                       
+                        throw new Exception("You should enter positive number. ");                       
                     }
 
                     char[] digitOfNumberArray = ourNumberAsString.ToCharArray();
