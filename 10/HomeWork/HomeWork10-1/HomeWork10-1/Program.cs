@@ -21,9 +21,7 @@ namespace HomeWork10_1
                 {
                     if (!char.IsLetter(ch))
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
                         throw new Exception(message: "It is forbidden. You should use letters for name.");
-                        Console.ResetColor();
                     }
                 }
                 _nameOfPerson = value;
@@ -41,19 +39,17 @@ namespace HomeWork10_1
             {
                 if (value > 130)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
                     throw new Exception("Age should be < 130");
-                    Console.ResetColor();
                 }
                 _age = value;
             }
         }
 
-        public int AgeInFourYears
+        public byte AgeInFourYears
         {
             get
             {
-                return _age + 4;
+                return (byte)((int)(_age + 4));
             }
         }
 
