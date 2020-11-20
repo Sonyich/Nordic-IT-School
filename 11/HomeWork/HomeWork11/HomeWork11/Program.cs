@@ -79,8 +79,8 @@ namespace HomeWork11
     {
         static void Main(string[] args)
         {           
-            ReminderItem remind1 = new ReminderItem(DateTimeOffset.Parse ("7:00:00 AM"), "it is time to wake up!");
-            ReminderItem remind2 = new ReminderItem(DateTimeOffset.Parse("7:15:00 AM"), "it is time to WAKE UP!");
+            ReminderItem remind1 = new ReminderItem(DateTimeOffset.Parse ("7:00:00 AM"), "It is time to wake up!");
+            ReminderItem remind2 = new ReminderItem(DateTimeOffset.Parse("7:15:00 AM"), "It is time to WAKE UP!");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Remind1: " + "\n");
