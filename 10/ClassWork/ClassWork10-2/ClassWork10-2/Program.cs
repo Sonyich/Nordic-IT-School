@@ -78,6 +78,19 @@ namespace ClassWork10_2
                 _age = value;
             }
         }
+
+        public void UpdateProperties(string name)
+        {
+            Name = name;
+        }
+
+        public void UpdateProperties(string name, petKind kind, char sex)
+        {
+            Name = name;
+            Kind = kind;
+            Sex = sex;
+            
+        }
     }
 
     class Program
@@ -100,6 +113,9 @@ namespace ClassWork10_2
             pet2.Kind = petKind.Cat;
             pet2.Name = "Klukva";
             pet2.Sex = 'F';
+
+            pet1.UpdateProperties("Barsik");
+            pet2.UpdateProperties("Brusnika", petKind.Mouse, 'F');
 
             Console.WriteLine(pet1.PropertyString);
             Console.WriteLine(pet2.PropertyString);
