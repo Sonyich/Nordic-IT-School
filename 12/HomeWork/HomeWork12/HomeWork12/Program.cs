@@ -106,7 +106,7 @@ namespace HomeWork11
 
             Reminders[0] = new ReminderItem(DateTimeOffset.Parse("7:00:00 AM"), "It is time to wake up!");
             Reminders[1] = new PhoneReminderItem(DateTimeOffset.Parse("7:15:00 AM"), "It is time to WAKE UP!", "+79854270698");
-            Reminders[2] = new ChatReminderItem(DateTimeOffset.Parse("7:15:00 AM"), "It is time to WAKE UP!", "Wakers220", "Sonyich");
+            Reminders[2] = new ChatReminderItem(DateTimeOffset.Parse("7:40:00 AM"), "It is real time to WAKE UP!!!!!", "Wakers220", "Sonyich");
                        
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Remind1: " + "\n");
